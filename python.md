@@ -20,3 +20,20 @@ which python
 
 위 명령은 python의 executable이 위치한 경로를 말해준다. 
 즉, 이 명령의 결과가, project venv의 경로를 가리키고 있으면 된다.
+
+## Class
+https://docs.python.org/3/tutorial/classes.html#class-objects
+
+### Class object
+```python
+class Test:
+    name = "name"
+
+    def find_all():
+        return "found"
+
+
+def test_class_object():
+    assert Test.name == "name"
+    assert Test.find_all() == "found"
+```
