@@ -37,3 +37,21 @@ def test_class_object():
     assert Test.name == "name"
     assert Test.find_all() == "found"
 ```
+
+## dataclass
+https://docs.python.org/3/library/dataclasses.html
+
+This function is a decorator that is used to add generated special methods to classes, as described below.
+
+```python
+@dataclass
+class Batch:
+	id: int
+	name: str
+```
+
+## 상속
+https://docs.python.org/3/tutorial/classes.html
+```python
+ a language feature would not be worthy of the name “class” without supporting inheritance.
+```
