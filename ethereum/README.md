@@ -6,4 +6,4 @@ docs: https://ethereum.org/en/developers/docs/intro-to-ethereum/
 - smart contract - https://ethereum.org/en/developers/docs/smart-contracts/
 
 ###  정리
-- [[smart-contract.md]]
+- [[smart-contract]]
